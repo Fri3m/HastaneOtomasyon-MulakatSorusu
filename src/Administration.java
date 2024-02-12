@@ -6,7 +6,6 @@ public class Administration {
         }
         Doctor[] operationDoctors = new Doctor[docCount];
         Nurse[] operationNurses = new Nurse[nurseCount];
-        System.out.println(hospital.getSurgeonDoctors().length);
         for (int i= 0; i < docCount; i++) {
             operationDoctors[i] = hospital.getSurgeonDoctors()[i];
         }
